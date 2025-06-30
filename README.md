@@ -1,24 +1,14 @@
-# Twitter-Sentiment-Analysis
+# Twitter Sentiment Analysis
 
-This project performs sentiment analysis on tweets to determine whether the sentiment expressed in a tweet is **positive**, **negative**, or **neutral**. It uses natural language processing (NLP) techniques to clean, process, and classify the tweet data.
+This project performs sentiment analysis on tweets to determine whether the sentiment expressed in a tweet is positive, negative, or neutral. It uses natural language processing (NLP) techniques for data cleaning and traditional as well as deep learning models for classification, including BERT-based sentiment classification.
 
 ## Features
 
 - Data cleaning and preprocessing of tweets
 - Tokenization and stemming/lemmatization
 - Feature extraction using CountVectorizer / TF-IDF
-- Sentiment classification using machine learning (e.g., Logistic Regression, SVM)
-- Model evaluation with accuracy, precision, recall
-- Visualization of sentiment distribution
+- Traditional machine learning models (e.g., Logistic Regression, SVM)
+- Fine-tuned BERT model for contextual sentiment classification
+- Model evaluation with accuracy, precision, recall, F1-score
+- Confusion matrix and visualization of sentiment distribution
 
----
-
-## Technologies Used
-
-- Python 3.x
-- Jupyter Notebook
-- Pandas, NumPy
-- Scikit-learn
-- NLTK / TextBlob / spaCy (depending on your code)
-- Matplotlib / Seaborn
-- CountVectorizer or TF-IDF
